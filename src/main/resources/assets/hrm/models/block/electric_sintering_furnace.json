@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "hrm:blocks/electric_sintering_furnace_front_off",
+        "up": "hrm:blocks/electric_sintering_furnace_top",
+        "down": "hrm:blocks/electric_sintering_furnace_top",
+        "north": "hrm:blocks/electric_sintering_furnace_front_off",
+        "east": "hrm:blocks/electric_sintering_furnace_side",
+        "south": "hrm:blocks/electric_sintering_furnace_side",
+        "west": "hrm:blocks/electric_sintering_furnace_side"
+    }
+}

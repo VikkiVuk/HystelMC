@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "hrm:blocks/electric_sintering_furnace_side",
+        "up": "hrm:blocks/electric_sintering_furnace_side",
+        "down": "hrm:blocks/electric_sintering_furnace_side",
+        "north": "hrm:blocks/glowstone_generator_side",
+        "east": "hrm:blocks/glowstone_generator_side",
+        "south": "hrm:blocks/glowstone_generator_side",
+        "west": "hrm:blocks/glowstone_generator_side"
+    }
+}

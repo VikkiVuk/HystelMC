@@ -1,0 +1,10 @@
+{
+	"variants": 
+	{
+	"facing=up": { "model": "hrm:hystel_something" },
+	"facing=south": { "model": "hrm:hystel_something" },
+	"facing=east": { "model": "hrm:hystel_something", "y": 270 },
+	"facing=west": { "model": "hrm:hystel_something", "y": 90 },
+	"facing=north": { "model": "hrm:hystel_something", "y": 180 }
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"variants": 
+	{
+	"facing=up": { "model": "hrm:modern_chair" },
+	"facing=south": { "model": "hrm:modern_chair" },
+	"facing=east": { "model": "hrm:modern_chair", "y": 270 },
+	"facing=west": { "model": "hrm:modern_chair", "y": 90 },
+	"facing=north": { "model": "hrm:modern_chair", "y": 180 }
+	}
+}

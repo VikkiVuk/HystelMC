@@ -1,0 +1,10 @@
+{
+    "variants": 
+    {
+    "facing=up": { "model": "hrm:better_cauldron" },
+    "facing=south": { "model": "hrm:better_cauldron" },
+    "facing=east": { "model": "hrm:better_cauldron", "y": 270 },
+    "facing=west": { "model": "hrm:better_cauldron", "y": 90 },
+    "facing=north": { "model": "hrm:better_cauldron", "y": 180 }
+    }
+}

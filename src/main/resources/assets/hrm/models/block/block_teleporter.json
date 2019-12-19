@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "hrm:blocks/block_teleporter_top",
+        "up": "hrm:blocks/block_teleporter_top",
+        "down": "hrm:blocks/block_teleporter_top",
+        "north": "hrm:blocks/block_teleporter_front",
+        "east": "hrm:blocks/block_teleporter_side",
+        "south": "hrm:blocks/block_teleporter_side",
+        "west": "hrm:blocks/block_teleporter_side"
+    }
+}

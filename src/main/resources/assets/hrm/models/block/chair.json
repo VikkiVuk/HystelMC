@@ -1,0 +1,109 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "concrete_black": "minecraft:blocks/concrete_black",
+        "log_oak": "minecraft:blocks/log_oak"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 0 ],
+            "translation": [ 0, -1, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 45, 0 ],
+            "translation": [ 0, 2, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 45, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Element1",
+            "from": [ 1.6, 0, 1.6 ], 
+            "to": [ 3.2, 8, 3.2 ], 
+            "faces": {
+                "north": { "texture": "#concrete_black", "uv": [ 1.6, 0, 3.2, 8 ] },
+                "east": { "texture": "#concrete_black", "uv": [ 1.6, 0, 3.2, 8 ] },
+                "south": { "texture": "#concrete_black", "uv": [ 1.6, 0, 3.2, 8 ] },
+                "west": { "texture": "#concrete_black", "uv": [ 1.6, 0, 3.2, 8 ] },
+                "down": { "texture": "#concrete_black", "uv": [ 1.6, 1.6, 3.2, 3.2 ] }
+            }
+        },
+        {
+            "name": "Element2",
+            "from": [ 12.8, 0, 12.8 ], 
+            "to": [ 14.4, 8, 14.4 ], 
+            "faces": {
+                "north": { "texture": "#concrete_black", "uv": [ 12.8, 0, 14.4, 8 ] },
+                "east": { "texture": "#concrete_black", "uv": [ 12.8, 0, 14.4, 8 ] },
+                "south": { "texture": "#concrete_black", "uv": [ 12.8, 0, 14.4, 8 ] },
+                "west": { "texture": "#concrete_black", "uv": [ 12.8, 0, 14.4, 8 ] },
+                "down": { "texture": "#concrete_black", "uv": [ 12.8, 12.8, 14.4, 14.4 ] }
+            }
+        },
+        {
+            "name": "Element3",
+            "from": [ 12.8, 0, 1.6 ], 
+            "to": [ 14.4, 8, 3.2 ], 
+            "faces": {
+                "north": { "texture": "#concrete_black", "uv": [ 12.8, 0, 14.4, 8 ] },
+                "east": { "texture": "#concrete_black", "uv": [ 1.6, 0, 3.2, 8 ] },
+                "south": { "texture": "#concrete_black", "uv": [ 12.8, 0, 14.4, 8 ] },
+                "west": { "texture": "#concrete_black", "uv": [ 1.6, 0, 3.2, 8 ] },
+                "down": { "texture": "#concrete_black", "uv": [ 12.8, 1.6, 14.4, 3.2 ] }
+            }
+        },
+        {
+            "name": "Element4",
+            "from": [ 1.6, 0, 12.8 ], 
+            "to": [ 3.2, 8, 14.4 ], 
+            "faces": {
+                "north": { "texture": "#concrete_black", "uv": [ 1.6, 0, 3.2, 8 ] },
+                "east": { "texture": "#concrete_black", "uv": [ 12.8, 0, 14.4, 8 ] },
+                "south": { "texture": "#concrete_black", "uv": [ 1.6, 0, 3.2, 8 ] },
+                "west": { "texture": "#concrete_black", "uv": [ 12.8, 0, 14.4, 8 ] },
+                "down": { "texture": "#concrete_black", "uv": [ 1.6, 12.8, 3.2, 14.4 ] }
+            }
+        },
+        {
+            "name": "Element5",
+            "from": [ 12.8, 9.6, 1.6 ], 
+            "to": [ 14.4, 19.2, 14.4 ], 
+            "faces": {
+                "north": { "texture": "#log_oak", "uv": [ 12.8, 6.4, 14.4, 16 ] },
+                "east": { "texture": "#log_oak", "uv": [ 1.6, 6.4, 14.4, 16 ] },
+                "south": { "texture": "#log_oak", "uv": [ 12.8, 6.4, 14.4, 16 ] },
+                "west": { "texture": "#log_oak", "uv": [ 1.6, 6.4, 14.4, 16 ] },
+                "up": { "texture": "#log_oak", "uv": [ 12.8, 1.6, 14.4, 14.4 ] }
+            }
+        },
+        {
+            "name": "Element6",
+            "from": [ 1.6, 8, 1.6 ], 
+            "to": [ 14.4, 9.6, 14.4 ], 
+            "faces": {
+                "north": { "texture": "#log_oak", "uv": [ 1.6, 8, 14.4, 9.6 ] },
+                "east": { "texture": "#log_oak", "uv": [ 1.6, 8, 14.4, 9.6 ] },
+                "south": { "texture": "#log_oak", "uv": [ 1.6, 8, 14.4, 9.6 ] },
+                "west": { "texture": "#log_oak", "uv": [ 1.6, 8, 14.4, 9.6 ] },
+                "up": { "texture": "#log_oak", "uv": [ 1.6, 1.6, 14.4, 14.4 ] },
+                "down": { "texture": "#log_oak", "uv": [ 1.6, 1.6, 14.4, 14.4 ] }
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "hrm:blocks/tomato_plant_age_4"
+    }
+}

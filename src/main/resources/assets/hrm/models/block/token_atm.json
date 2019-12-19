@@ -1,0 +1,212 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "particle": "minecraft:blocks/diamond_block",
+        "bedrock": "minecraft:blocks/bedrock",
+        "concrete_black": "minecraft:blocks/concrete_black",
+        "iron_block": "minecraft:blocks/iron_block",
+        "diamond_block": "minecraft:blocks/diamond_block"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "back",
+            "from": [ 0, 0, -16 ], 
+            "to": [ 16, 24, -14 ], 
+            "faces": {
+                "north": { "texture": "#bedrock", "uv": [ 0, 0, 16, 16 ] },
+                "east": { "texture": "#bedrock", "uv": [ 0, 0, 2, 16 ] },
+                "south": { "texture": "#bedrock", "uv": [ 0, 0, 16, 16 ] },
+                "west": { "texture": "#bedrock", "uv": [ 0, 0, 2, 16 ] },
+                "up": { "texture": "#bedrock", "uv": [ 0, 0, 16, 2 ] },
+                "down": { "texture": "#bedrock", "uv": [ 0, 0, 16, 2 ] }
+            }
+        },
+        {
+            "name": "left_side",
+            "from": [ 0, 0, -14 ], 
+            "to": [ 1, 24, 18 ], 
+            "faces": {
+                "east": { "texture": "#iron_block", "uv": [ 0, 0, 16, 16 ] },
+                "south": { "texture": "#iron_block", "uv": [ 0, 0, 1, 16 ] },
+                "west": { "texture": "#iron_block", "uv": [ 0, 0, 16, 16 ] },
+                "up": { "texture": "#iron_block", "uv": [ 0, 0, 1, 16 ] },
+                "down": { "texture": "#iron_block", "uv": [ 0, 0, 1, 16 ] }
+            }
+        },
+        {
+            "name": "right_side",
+            "from": [ 15, 0, -14 ], 
+            "to": [ 16, 24, 18 ], 
+            "faces": {
+                "east": { "texture": "#iron_block", "uv": [ 0, 0, 16, 16 ] },
+                "south": { "texture": "#iron_block", "uv": [ 0, 0, 1, 16 ] },
+                "west": { "texture": "#iron_block", "uv": [ 0, 0, 16, 16 ] },
+                "up": { "texture": "#iron_block", "uv": [ 0, 0, 1, 16 ] },
+                "down": { "texture": "#iron_block", "uv": [ 0, 0, 1, 16 ] }
+            }
+        },
+        {
+            "name": "bottom",
+            "from": [ 1, 0, -14 ], 
+            "to": [ 15, 1, 18 ], 
+            "faces": {
+                "south": { "texture": "#iron_block", "uv": [ 0, 0, 14, 1 ] },
+                "up": { "texture": "#iron_block", "uv": [ 0, 0, 14, 16 ] },
+                "down": { "texture": "#iron_block", "uv": [ 0, 0, 14, 16 ] }
+            }
+        },
+        {
+            "name": "top",
+            "from": [ 1, 23, -14 ], 
+            "to": [ 15, 24, 18 ], 
+            "faces": {
+                "south": { "texture": "#iron_block", "uv": [ 0, 0, 14, 1 ] },
+                "up": { "texture": "#iron_block", "uv": [ 0, 0, 14, 16 ] },
+                "down": { "texture": "#iron_block", "uv": [ 0, 0, 14, 16 ] }
+            }
+        },
+        {
+            "name": "front_bottom",
+            "from": [ 1, 1, 17 ], 
+            "to": [ 15, 7, 18 ], 
+            "faces": {
+                "south": { "texture": "#bedrock", "uv": [ -2, 11, 17, 11 ] },
+                "up": { "texture": "#bedrock", "uv": [ 0, 0, 14, 1 ] }
+            }
+        },
+        {
+            "name": "front_left_side",
+            "from": [ 1, 7, 17 ], 
+            "to": [ 3, 23, 18 ], 
+            "faces": {
+                "east": { "texture": "#diamond_block", "uv": [ 0, 0, 1, 16 ] },
+                "south": { "texture": "#diamond_block", "uv": [ 0, 0, 2, 16 ] }
+            }
+        },
+        {
+            "name": "front_right_side",
+            "from": [ 13, 7, 17 ], 
+            "to": [ 15, 23, 18 ], 
+            "faces": {
+                "south": { "texture": "#diamond_block", "uv": [ 0, 0, 2, 16 ] },
+                "west": { "texture": "#diamond_block", "uv": [ 0, 0, 1, 16 ] }
+            }
+        },
+        {
+            "name": "front_top",
+            "from": [ 3, 22, 17 ], 
+            "to": [ 13, 23, 18 ], 
+            "faces": {
+                "south": { "texture": "#diamond_block", "uv": [ 0, 0, 10, 1 ] },
+                "down": { "texture": "#diamond_block", "uv": [ 0, 0, 10, 1 ] }
+            }
+        },
+        {
+            "name": "front_hole_for_token_left",
+            "from": [ 5, 7, 17 ], 
+            "to": [ 6, 11, 18 ], 
+            "faces": {
+                "east": { "texture": "#concrete_black", "uv": [ 0, 0, 1, 4 ] },
+                "south": { "texture": "#concrete_black", "uv": [ 0, 0, 1, 4 ] }
+            }
+        },
+        {
+            "name": "front_hole_for_token_righ",
+            "from": [ 10, 7, 17 ], 
+            "to": [ 11, 11, 18 ], 
+            "faces": {
+                "south": { "texture": "#concrete_black", "uv": [ 0, 0, 1, 4 ] },
+                "west": { "texture": "#concrete_black", "uv": [ 0, 0, 1, 4 ] }
+            }
+        },
+        {
+            "name": "front_hole_for_token_top",
+            "from": [ 6, 10, 17 ], 
+            "to": [ 10, 11, 18 ], 
+            "faces": {
+                "south": { "texture": "#concrete_black", "uv": [ 5, 0, 9, 1 ] },
+                "down": { "texture": "#concrete_black", "uv": [ 0, 0, 4, 1 ] }
+            }
+        },
+        {
+            "name": "Screen",
+            "from": [ 4, 16, 18 ], 
+            "to": [ 12, 20, 19 ], 
+            "faces": {
+                "north": { "texture": "#concrete_black", "uv": [ 0, 0, 8, 4 ] },
+                "east": { "texture": "#concrete_black", "uv": [ 0, 0, 1, 4 ] },
+                "south": { "texture": "#concrete_black", "uv": [ 3, 0, 11, 4 ] },
+                "west": { "texture": "#concrete_black", "uv": [ 0, 0, 1, 4 ] },
+                "up": { "texture": "#concrete_black", "uv": [ 0, 0, 8, 1 ] },
+                "down": { "texture": "#concrete_black", "uv": [ 0, 0, 8, 1 ] }
+            }
+        },
+        {
+            "name": "background_front_left",
+            "from": [ 3, 7, 17 ], 
+            "to": [ 5, 22, 18 ], 
+            "faces": {
+                "east": { "texture": "#diamond_block", "uv": [ 0, 0, 1, 15 ] },
+                "south": { "texture": "#diamond_block", "uv": [ 0, 0, 2, 15 ] }
+            }
+        },
+        {
+            "name": "background_front_right",
+            "from": [ 11, 7, 17 ], 
+            "to": [ 13, 22, 18 ], 
+            "faces": {
+                "south": { "texture": "#diamond_block", "uv": [ 0, 0, 2, 15 ] },
+                "west": { "texture": "#diamond_block", "uv": [ 0, 0, 1, 15 ] }
+            }
+        },
+        {
+            "name": "background_front_every",
+            "from": [ 5, 11, 17 ], 
+            "to": [ 11, 22, 18 ], 
+            "faces": {
+                "south": { "texture": "#diamond_block", "uv": [ 0, 0, 6, 11 ] },
+                "down": { "texture": "#diamond_block", "uv": [ 0, 0, 6, 1 ] }
+            }
+        },
+        {
+            "name": "everythiunginside",
+            "from": [ 1, 1, -6 ], 
+            "to": [ 15, 23, 17 ], 
+            "faces": {
+                "south": { "texture": "#diamond_block", "uv": [ 0, 0, 14, 16 ] }
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "hrm:blocks/hardened_chocolate_milk"
+   }
+}
