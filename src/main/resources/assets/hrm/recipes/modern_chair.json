@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OOO",
+         "AOA",
+         "AAA"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:quartz_block",
+            "data": 0
+        },
+        
+        "A":
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:modern_chair"      
+    }
+    
+    
+}

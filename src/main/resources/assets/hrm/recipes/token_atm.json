@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OOO",
+         "OAO",
+         "OAO"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:iron_block"
+        },
+        "A":
+        {
+            "item": "minecraft:diamond_block"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:token_atm"      
+    }
+    
+    
+}

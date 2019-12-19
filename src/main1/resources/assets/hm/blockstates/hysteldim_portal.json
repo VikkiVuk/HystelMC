@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "hm:hysteldim_portal_ew"
+    },
+    "axis=x": {
+      "model": "hm:hysteldim_portal_ns"
+    },
+    "inventory": {
+      "model": "hm:hysteldim_portal_ns"
+    }
+  }
+}

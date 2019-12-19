@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "hm:blosinteringfurnace"
+    },
+    "facing=north": {
+      "model": "hm:blosinteringfurnace"
+    },
+    "facing=east": {
+      "model": "hm:blosinteringfurnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hm:blosinteringfurnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hm:blosinteringfurnace",
+      "y": 270
+    }
+  }
+}

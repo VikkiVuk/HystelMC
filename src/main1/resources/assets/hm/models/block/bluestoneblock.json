@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "hm:blocks/bluestone_block",
+    "particle": "hm:blocks/bluestone_block"
+  }
+}

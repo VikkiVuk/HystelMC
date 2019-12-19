@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OOO",
+         "AAA",
+         "MMM"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:stained_glass",
+            "data": 11
+        },
+        "A":
+        {
+            "item": "minecraft:sand",
+            "data": 1
+        },
+        "M":
+        {
+            "item": "minecraft:stone_slab",
+            "data": 0
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "hrm:custom_glassy_mobble"      
+    }
+    
+    
+}

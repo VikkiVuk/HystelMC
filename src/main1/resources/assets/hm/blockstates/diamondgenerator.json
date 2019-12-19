@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "hm:diamondgenerator"
+    },
+    "facing=north": {
+      "model": "hm:diamondgenerator"
+    },
+    "facing=east": {
+      "model": "hm:diamondgenerator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hm:diamondgenerator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hm:diamondgenerator",
+      "y": 270
+    }
+  }
+}

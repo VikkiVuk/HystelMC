@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OAC",
+         "OBC"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:brick_block"
+        },
+        
+         "A":
+        {
+            "item": "minecraft:diamond_block"
+        },
+        
+         "B":
+        {
+            "item": "minecraft:bone_block"
+        },
+        
+         "C":
+        {
+            "item": "minecraft:bookshelf"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:custom_block"      
+    }
+    
+    
+}

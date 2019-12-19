@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         " O ",
+         "AAA",
+         "OOO"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:concrete",
+            "data": 15
+        },
+         "A":
+        {
+            "item": "minecraft:stained_glass",
+            "data": 0
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:cookie_jar"      
+    }
+    
+    
+}

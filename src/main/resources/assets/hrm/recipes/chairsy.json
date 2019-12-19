@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OAO",
+         "OAO",
+         "OAO"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:planks",
+            "data": 0
+        },
+        "A":
+        {
+            "item": "minecraft:wool",
+            "data": 9
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:chairsy"      
+    }
+    
+    
+}

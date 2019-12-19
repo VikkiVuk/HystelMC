@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OOO",
+         "A A",
+         "A A"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:log",
+            "data": 1
+        },
+         "A":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:spruce_table"      
+    }
+    
+    
+}

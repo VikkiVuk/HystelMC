@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "hm:diamondgenerator"
+    },
+    "title": {
+      "translate": "advancements.diamondgenopnach.title"
+    },
+    "description": {
+      "translate": "advancements.diamondgenopnach.descr"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "diamondgenopnach": {
+      "trigger": "diamondgenopnach"
+    }
+  },
+  "parent": "hm:diamondgenfail"
+}

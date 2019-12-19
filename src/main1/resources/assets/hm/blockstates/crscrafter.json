@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "hm:crscrafter"
+    },
+    "facing=north": {
+      "model": "hm:crscrafter"
+    },
+    "facing=east": {
+      "model": "hm:crscrafter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hm:crscrafter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hm:crscrafter",
+      "y": 270
+    }
+  }
+}

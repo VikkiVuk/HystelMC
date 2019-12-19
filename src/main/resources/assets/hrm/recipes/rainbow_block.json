@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OOO",
+         "OOO",
+         "OOO"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:rainbow_gem"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:rainbow_block"      
+    }
+    
+    
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "O"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:bluestone_block"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:bluestone_ingot",
+       "count": 9    
+    }
+    
+    
+}

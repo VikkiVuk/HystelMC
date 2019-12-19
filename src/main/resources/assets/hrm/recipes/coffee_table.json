@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OOO",
+         "A A"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:log",
+            "data": 0
+        },
+        
+        "A":
+        {
+            "item": "minecraft:stick" 
+        }
+    },
+    
+    "result":
+    {
+        "item": "hrm:coffe_table"      
+    }
+    
+    
+}
