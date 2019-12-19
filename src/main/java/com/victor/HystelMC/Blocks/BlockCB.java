@@ -1,0 +1,16 @@
+package com.victor.HystelMC.Blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.material.Material;
+import net.minecraft.util.BlockRenderLayer;
+
+public class BlockCB extends Block {
+
+    public BlockCB() {
+        super(Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.1f));
+        setRegistryName("customized_bobble");
+    }
+
+
+}
