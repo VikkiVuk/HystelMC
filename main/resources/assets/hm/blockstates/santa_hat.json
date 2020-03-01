@@ -1,9 +1,0 @@
-{
-  "variants":
-  {
-    "facing=north": { "model": "hm:block/santa_hat" },
-    "facing=south": { "model": "hm:block/santa_hat" },
-    "facing=west": { "model": "hm:block/santa_hat" },
-    "facing=east": { "model": "hm:block/santa_hat" }
-  }
-}

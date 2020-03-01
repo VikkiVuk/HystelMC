@@ -1,9 +1,0 @@
-{
-  "variants":
-  {
-    "facing=north": { "model": "hm:block/chairsy" },
-    "facing=south": { "model": "hm:block/chairsy", "y": 180 },
-    "facing=west": { "model": "hm:block/chairsy", "y": 270 },
-    "facing=east": { "model": "hm:block/chairsy", "y": 90}
-  }
-}

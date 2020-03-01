@@ -1,9 +1,0 @@
-{
-  "variants":
-  {
-    "facing=west": { "model": "hm:block/better_cauldron" },
-    "facing=east": { "model": "hm:block/better_cauldron", "y": 180 },
-    "facing=north": { "model": "hm:block/better_cauldron", "y": 270 },
-    "facing=south": { "model": "hm:block/better_cauldron", "y": 90}
-  }
-}
