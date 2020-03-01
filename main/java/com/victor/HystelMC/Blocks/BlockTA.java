@@ -10,7 +10,7 @@ public class BlockTA extends Block {
 
     public BlockTA() {
         super(Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.1f));
-        setRegistryName("token_atm");
+
     }
 
     @Override
