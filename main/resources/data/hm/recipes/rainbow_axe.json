@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " SS",
+    " IS",
+    " I "
+  ],
+
+  "key":
+  {
+    "S": { "item": "hm:rainbow_gem" },
+    "I": { "item": "minecraft:stick" }
+  },
+
+  "result": { "item": "hm:rainbow_axe" }
+}

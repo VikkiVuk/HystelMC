@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "facing=west": { "model": "hm:block/token_atm" },
+    "facing=east": { "model": "hm:block/token_atm", "y": 180 },
+    "facing=north": { "model": "hm:block/token_atm", "y": 270 },
+    "facing=south": { "model": "hm:block/token_atm", "y": 90}
+  }
+}
