@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "facing=north": { "model": "hm:block/speaker" },
+    "facing=south": { "model": "hm:block/speaker", "y": 180 },
+    "facing=west": { "model": "hm:block/speaker", "y": 270 },
+    "facing=east": { "model": "hm:block/speaker", "y": 90}
+  }
+}
