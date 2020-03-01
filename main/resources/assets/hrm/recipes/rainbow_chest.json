@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OOO",
+         "O O",
+         "OOO"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:rainbow_planks"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:rainbow_chest"   
+    }
+    
+    
+}

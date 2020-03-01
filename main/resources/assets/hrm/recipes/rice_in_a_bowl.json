@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OR"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:bowl"
+        },
+        
+        
+        "R":
+        {
+        	"item": "hrm:rice"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:rice_bowl"      
+    }
+    
+    
+}

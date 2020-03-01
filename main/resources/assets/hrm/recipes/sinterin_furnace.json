@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OOO",
+         "OAO",
+         "OOO"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:stone"
+        },
+        
+        "A":
+        {
+            "item": "minecraft:furnace"
+        }
+    },
+    
+    "result":
+    {
+        "item": "hrm:sintering_furnace"      
+    }
+    
+    
+}

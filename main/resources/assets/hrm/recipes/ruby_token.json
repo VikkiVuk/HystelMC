@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [	
+    	 "OOO",
+         "ORO",
+         "OOO"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:ruby" 
+        },
+        "R":
+        {
+            "item": "hrm:iron_token" 
+        }
+       
+    },
+    
+    "result":
+    {
+       "item": "hrm:ruby_token"   
+    }
+    
+    
+}

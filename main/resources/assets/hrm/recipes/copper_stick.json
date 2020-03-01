@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "O",
+         "O"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:copper_planks" 
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:copper_stick"   
+    }
+    
+    
+}

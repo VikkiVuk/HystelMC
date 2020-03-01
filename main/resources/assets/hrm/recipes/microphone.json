@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [	
+    	 " A ",
+         "ORO",
+         " S "
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:redstone" 
+        },
+        "R":
+        {
+            "item": "minecraft:wool" 
+        },
+        "S":
+        {
+            "item": "minecraft:stick" 
+        },
+        "A":
+        {
+            "item": "minecraft:wool",
+            "data": 15
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:microphone"   
+    }
+    
+    
+}

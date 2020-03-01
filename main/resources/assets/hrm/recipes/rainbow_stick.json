@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "O",
+         "O"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:rainbow_planks" 
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:rainbow_stick"   
+    }
+    
+    
+}

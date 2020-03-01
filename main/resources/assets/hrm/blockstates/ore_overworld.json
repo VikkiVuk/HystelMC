@@ -1,0 +1,10 @@
+{
+	"variants":
+	{
+		"variant=bluestone_ore":{ "model": "hrm:bluestone_ore" },
+		"variant=ruby_ore":{ "model": "hrm:ruby_ore" },
+		"variant=copper_ore":{ "model": "hrm:copper_ore" },
+		"variant=rainbow_ore":{ "model": "hrm:rainbow_ore" }
+	}
+	
+}

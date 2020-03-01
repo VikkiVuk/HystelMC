@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "hrm:silver_furnace_on" },
+        "facing=south": { "model": "hrm:silver_furnace_on", "y": 180 },
+        "facing=west":  { "model": "hrm:silver_furnace_on", "y": 270 },
+        "facing=east":  { "model": "hrm:silver_furnace_on", "y": 90 }
+    }
+}

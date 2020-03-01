@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OOO",
+         "RAR",
+         "OOO"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:concrete",
+            "data": 15
+        },
+        
+         "A":
+        {
+            "item": "minecraft:redstone"
+        },
+        "R":
+        {
+        	"item": "minecraft:concrete",
+            "data": 7
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:speakers"      
+    }
+    
+    
+}

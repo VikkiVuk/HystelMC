@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OOO",
+         " S ",
+         " S "
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:rainbow_gem" 
+        },
+        
+        "S":
+        {
+         	"item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:rainbow_pickaxe"   
+    }
+    
+    
+}

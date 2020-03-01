@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OOO",
+         "O O",
+         "O O"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:copper_ingot" 
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:copper_leggings"   
+    }
+    
+    
+}

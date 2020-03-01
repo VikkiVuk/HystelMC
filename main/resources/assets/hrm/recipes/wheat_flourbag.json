@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OO",
+         "OO",
+         " R"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:wheat"
+        },
+        "R":
+        {
+         	"item": "hrm:flourbag"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:wheatflour"   
+    }
+    
+    
+}

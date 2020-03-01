@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OR"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:cracker"
+        },
+               
+         "R":
+        {
+            "item": "hrm:chesse"
+        }
+        
+    },
+    
+    "result":
+    {
+       "item": "hrm:chesse_and_cracker"      
+    }
+    
+    
+}

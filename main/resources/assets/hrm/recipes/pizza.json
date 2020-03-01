@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         " O ",
+         "RAR",
+         " B "
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:tomato"
+        },
+        
+         "A":
+        {
+            "item": "hrm:wheatflour"
+        },
+        "R":
+        {
+        	"item": "hrm:chesse"
+        },
+        
+        "B":
+        {
+        	"item": "hrm:bacon"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:pizza"      
+    }
+    
+    
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OO",
+         "SO",
+         "S"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:bluestone_ingot" 
+        },
+        
+        "S":
+        {
+         	"item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:bluestone_axe"   
+    }
+    
+    
+}

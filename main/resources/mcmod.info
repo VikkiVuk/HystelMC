@@ -1,0 +1,16 @@
+[
+{
+  "modid": "hrm",
+  "name": "HystelMC",
+  "description": "Adds some cool stuff you may like! Hope you like it, we put a lot of effort in this.",
+  "version": "1.0.2",
+  "mcversion": "1.12.2",
+  "url": "https://www.youtube.com/c/TheTeamExtreme",
+  "updateUrl": "https://minecraft.curseforge.com/projects/hystel-mc/files",
+  "authorList": ["Hystel Studios / Hystel™"],
+  "credits": "Half coded In Eclipse, Other half coded in IntelliJ. Coded By Hystel Team.",
+  "logoFile": "assets/hrm/logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

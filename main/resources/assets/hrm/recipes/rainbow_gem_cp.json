@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [	
+    	 " A ",
+         "ORE",
+         " A "
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:bluestone_ingot" 
+        },
+        "R":
+        {
+            "item": "hrm:ruby" 
+        },
+        "E":
+        {
+            "item": "hrm:copper_ingot" 
+        },
+        "A":
+        {
+            "item": "minecraft:iron_ingot" 
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:bluestone_ingot"   
+    }
+    
+    
+}

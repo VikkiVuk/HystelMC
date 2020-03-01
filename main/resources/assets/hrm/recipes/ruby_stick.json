@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "O",
+         "O"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:ruby_planks" 
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:ruby_stick"   
+    }
+    
+    
+}

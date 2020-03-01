@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "hm:blocks/ruby_ore",
-    "particle": "hm:blocks/ruby_ore"
-  }
-}

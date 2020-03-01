@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [	
+    	 "OOO",
+         "ORO",
+         "OOO"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:bluestone_ingot" 
+        },
+        "R":
+        {
+            "item": "hrm:ruby_token" 
+        }
+       
+    },
+    
+    "result":
+    {
+       "item": "hrm:bluestone_token"   
+    }
+    
+    
+}

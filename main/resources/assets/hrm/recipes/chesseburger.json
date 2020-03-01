@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OOO",
+         "ARE",
+         "OOO"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:bread"
+        },
+        
+         "A":
+        {
+            "item": "hrm:tomato"
+        }, 
+         "R":
+        {
+            "item": "hrm:beef_patty"
+        },
+        
+        
+         "E":
+        {
+            "item": "hrm:chesse"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:chesseburger"      
+    }
+    
+    
+}

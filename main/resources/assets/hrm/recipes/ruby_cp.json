@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OR"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:copper_ingot" 
+        },
+        "R":
+        {
+            "item": "minecraft:redstone" 
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:ruby"   
+    }
+    
+    
+}

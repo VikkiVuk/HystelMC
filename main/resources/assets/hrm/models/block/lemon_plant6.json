@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "hrm:blocks/lemon_plant6"
+    }
+}

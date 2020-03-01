@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "O O",
+         "O O",
+         "OOO"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:paper"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:flourbag"   
+    }
+    
+    
+}

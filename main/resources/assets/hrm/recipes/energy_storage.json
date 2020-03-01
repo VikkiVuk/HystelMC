@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         " O ",
+         "OAO",
+         " O "
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:redstone_torch"
+        },
+        "A":
+        {
+            "item": "minecraft:chest"
+        }
+    },
+    
+    "result":
+    {
+        "item": "hrm:energy_storage"      
+    }
+    
+    
+}

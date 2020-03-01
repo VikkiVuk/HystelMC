@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OO",
+         "S",
+         "S"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:copper_ingot" 
+        },
+        
+        "S":
+        {
+         	"item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:copper_hoe"   
+    }
+    
+    
+}

@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [	
+    	 " A ",
+         "ORO",
+         " E "
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "hrm:gold_token" 
+        },
+        "R":
+        {
+            "item": "hrm:bluestone_token" 
+        },
+        "E":
+        {
+            "item": "hrm:ruby_token" 
+        },
+        "A":
+        {
+            "item": "hrm:iron_token" 
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:rainbow_token"   
+    }
+    
+    
+}

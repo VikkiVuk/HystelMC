@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "hm:items/chesse_and_cracker"
-  }
-}

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OA"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:slime"
+        },
+        "A":
+        {
+            "item": "minecraft:dye",
+            "data": "10"
+        }
+    },
+    
+    "result":
+    {
+        "item": "hrm:lime_slime"      
+    }
+    
+    
+}

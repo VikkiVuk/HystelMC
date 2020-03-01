@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         "OOO",
+         "ORO",
+         "OOO"
+    ],
+    
+    "key": 
+    {
+        "O":
+        {
+            "item": "minecraft:planks" 
+        },
+        "R":
+        {
+            "item": "hrm:copper_ingot" 
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:copper_planks",
+       "count": "8"   
+    }
+    
+    
+}

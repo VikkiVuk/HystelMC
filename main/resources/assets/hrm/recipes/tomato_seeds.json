@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+         " S ",
+         " A ",
+         " O "
+    ],
+    
+    "key": 
+    {
+        "S":
+        {
+            "item": "minecraft:sapling"
+        },
+        
+         "A":
+        {
+            "item": "minecraft:apple"
+        },
+        
+        "O":
+        {
+        	"item": "minecraft:wheat_seeds"
+        }
+    },
+    
+    "result":
+    {
+       "item": "hrm:tomato_seed"      
+    }
+    
+    
+}
