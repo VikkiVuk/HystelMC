@@ -13,7 +13,7 @@ version="1.2.1" #mandatory
 
 displayName="HystelMC" #mandatory
 
-updateJSONURL="http://myurl.me/" #optional
+updateJSONURL="https://gist.githubusercontent.com/hoostelstudios/714e5985ff3e478ca227c5d6ca7a321a/raw/89b799736c7e7a5ce726521b7842ec957461170b/hm_update.txt" #optional
 
 displayURL="https://www.curseforge.com/minecraft/mc-mods/hystel-mc" #optional
 

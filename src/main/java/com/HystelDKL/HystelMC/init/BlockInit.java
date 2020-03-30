@@ -22,10 +22,10 @@ public class BlockInit
     public static final Block ruby_block = null;
     public static final Block copper_block = null;
     //public static final Block rainbow_block = null;
+    public static final Chairsy chairsy = null;
     public static final TokenAtm token_atm = null;
     public static final BlockCGM custom_glassy_mobble = null;
     public static final BlockBC better_cauldron = null;
-    public static final Chairsy chairsy = null;
     public static final BlockSpeaker speaker = null;
     public static final BlockResta custom_resta = null;
     public static final CoffaTable coffee_table = null;

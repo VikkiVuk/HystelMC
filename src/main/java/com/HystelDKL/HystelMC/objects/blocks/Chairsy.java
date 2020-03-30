@@ -4,6 +4,8 @@ import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.state.DirectionProperty;
+import net.minecraft.state.StateContainer;
+import net.minecraft.util.Direction;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
@@ -77,6 +79,7 @@ public class Chairsy extends Block
 	  public Chairsy() {
 	        super(Properties.create(Material.WOOL).sound(SoundType.CLOTH).hardnessAndResistance(2.0f).lightValue(14));
 	        setRegistryName("chairsy");
+		  this.setDefaultState(this.getStateContainer().getBaseState().with(FACING, Direction.NORTH));
 	    }
 
 
@@ -97,7 +100,6 @@ public class Chairsy extends Block
 
 		}
 	}
-
 	@Override
 	public BlockState getStateForPlacement(BlockItemUseContext context) {
 		return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
@@ -113,5 +115,10 @@ public class Chairsy extends Block
 		return state.rotate(mirrorIn.toRotation(state.get(FACING)));
 	}
 
-	  
+	@Override
+	protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
+		builder.add(FACING);
+	}
+
+
 }
