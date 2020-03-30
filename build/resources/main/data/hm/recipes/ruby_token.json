@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " I ",
+    "AAA"
+  ],
+
+  "key":
+  {
+    "I": { "item": "hm:gold_token" },
+    "A": { "item": "minecraft:redstone" }
+  },
+
+  "result": { "item": "hm:ruby_token" }
+}

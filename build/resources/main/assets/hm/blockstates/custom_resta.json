@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "facing=north": { "model": "hm:block/custom_resta" },
+    "facing=south": { "model": "hm:block/custom_resta" },
+    "facing=west": { "model": "hm:block/custom_resta" },
+    "facing=east": { "model": "hm:block/custom_resta" }
+  }
+}
