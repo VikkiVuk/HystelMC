@@ -17299,14 +17299,14 @@ net/minecraft/client/renderer/entity/model/LeashKnotModel net/minecraft/client/r
 	getParts ()Ljava/lang/Iterable; func_225601_a_
 	setRotationAngles (Lnet/minecraft/entity/Entity;FFFFF)V func_225597_a_
 net/minecraft/client/renderer/entity/model/LlamaModel net/minecraft/client/renderer/entity/model/LlamaModel
+	body field_228274_b_
 	chest1 field_191226_i
 	chest2 field_191227_j
-	field_228273_a_ field_228273_a_
-	field_228274_b_ field_228274_b_
-	field_228275_f_ field_228275_f_
-	field_228276_g_ field_228276_g_
-	field_228277_h_ field_228277_h_
-	field_228278_i_ field_228278_i_
+	head field_228273_a_
+	legBackLeft field_228276_g_
+	legBackRight field_228275_f_
+	legFrontLeft field_228278_i_
+	legFrontRight field_228277_h_
 	func_228279_a_ (Lcom/mojang/blaze3d/matrix/MatrixStack;Lcom/mojang/blaze3d/vertex/IVertexBuilder;IIFFFFLnet/minecraft/client/renderer/model/ModelRenderer;)V func_228279_a_
 	func_228280_b_ (Lcom/mojang/blaze3d/matrix/MatrixStack;Lcom/mojang/blaze3d/vertex/IVertexBuilder;IIFFFFLnet/minecraft/client/renderer/model/ModelRenderer;)V func_228280_b_
 	render (Lcom/mojang/blaze3d/matrix/MatrixStack;Lcom/mojang/blaze3d/vertex/IVertexBuilder;IIFFFF)V func_225598_a_
@@ -38395,8 +38395,8 @@ net/minecraft/network/play/server/SHeldItemChangePacket net/minecraft/network/pl
 	writePacketData (Lnet/minecraft/network/PacketBuffer;)V func_148840_b
 net/minecraft/network/play/server/SJoinGamePacket net/minecraft/network/play/server/SJoinGamePacket
 	dimension field_149202_d
+	enableRespawnScreen field_229741_j_
 	field_229740_b_ field_229740_b_
-	field_229741_j_ field_229741_j_
 	gameType field_149205_c
 	hardcoreMode field_149204_b
 	maxPlayers field_149200_f
@@ -38784,12 +38784,12 @@ net/minecraft/network/play/server/SRemoveEntityEffectPacket net/minecraft/networ
 	writePacketData (Lnet/minecraft/network/PacketBuffer;)V func_148840_b
 net/minecraft/network/play/server/SRespawnPacket net/minecraft/network/play/server/SRespawnPacket
 	dimensionID field_149088_a
-	field_229746_b_ field_229746_b_
 	gameType field_149087_c
+	hashedSeed field_229746_b_
 	worldType field_149085_d
-	func_229747_c_ ()J func_229747_c_
 	getDimension ()Lnet/minecraft/world/dimension/DimensionType; func_212643_b
 	getGameType ()Lnet/minecraft/world/GameType; func_149083_e
+	getHashedSeed ()J func_229747_c_
 	getWorldType ()Lnet/minecraft/world/WorldType; func_149080_f
 	processPacket (Lnet/minecraft/client/network/play/IClientPlayNetHandler;)V func_148833_a
 	processPacket (Lnet/minecraft/network/INetHandler;)V func_148833_a
@@ -50657,7 +50657,7 @@ net/minecraft/world/biome/provider/BiomeProviderType net/minecraft/world/biome/p
 	factory field_205465_g
 	settingsFactory field_205466_h
 	create (Lnet/minecraft/world/biome/provider/IBiomeProviderSettings;)Lnet/minecraft/world/biome/provider/BiomeProvider; func_205457_a
-	func_226840_a_ (Lnet/minecraft/world/storage/WorldInfo;)Lnet/minecraft/world/biome/provider/IBiomeProviderSettings; func_226840_a_
+	createSettings (Lnet/minecraft/world/storage/WorldInfo;)Lnet/minecraft/world/biome/provider/IBiomeProviderSettings; func_226840_a_
 	func_226841_a_ (Ljava/lang/String;Ljava/util/function/Function;Ljava/util/function/Function;)Lnet/minecraft/world/biome/provider/BiomeProviderType; func_226841_a_
 net/minecraft/world/biome/provider/CheckerboardBiomeProvider net/minecraft/world/biome/provider/CheckerboardBiomeProvider
 	field_205320_b field_205320_b
@@ -50685,12 +50685,12 @@ net/minecraft/world/biome/provider/OverworldBiomeProvider net/minecraft/world/bi
 	genBiomes field_201543_c
 	getNoiseBiome (III)Lnet/minecraft/world/biome/Biome; func_225526_b_
 net/minecraft/world/biome/provider/OverworldBiomeProviderSettings net/minecraft/world/biome/provider/OverworldBiomeProviderSettings
-	field_226848_a_ field_226848_a_
-	field_226849_b_ field_226849_b_
 	generatorSettings field_205444_b
-	func_226850_a_ ()J func_226850_a_
-	func_226851_b_ ()Lnet/minecraft/world/WorldType; func_226851_b_
+	seed field_226848_a_
+	worldType field_226849_b_
 	getGeneratorSettings ()Lnet/minecraft/world/gen/OverworldGenSettings; func_205442_b
+	getSeed ()J func_226850_a_
+	getWorldType ()Lnet/minecraft/world/WorldType; func_226851_b_
 	setGeneratorSettings (Lnet/minecraft/world/gen/OverworldGenSettings;)Lnet/minecraft/world/biome/provider/OverworldBiomeProviderSettings; func_205441_a
 net/minecraft/world/biome/provider/SingleBiomeProvider net/minecraft/world/biome/provider/SingleBiomeProvider
 	biome field_76947_d
@@ -52785,22 +52785,22 @@ net/minecraft/world/gen/feature/GlowstoneBlobFeature net/minecraft/world/gen/fea
 	place (Lnet/minecraft/world/IWorld;Lnet/minecraft/world/gen/ChunkGenerator;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/gen/feature/IFeatureConfig;)Z func_212245_a
 	place (Lnet/minecraft/world/IWorld;Lnet/minecraft/world/gen/ChunkGenerator;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/gen/feature/NoFeatureConfig;)Z func_212245_a
 net/minecraft/world/gen/feature/HugeTreeFeatureConfig net/minecraft/world/gen/feature/HugeTreeFeatureConfig
-	field_227275_a_ field_227275_a_
-	field_227276_b_ field_227276_b_
+	crownHeight field_227276_b_
+	heightInterval field_227275_a_
 	func_227277_a_ (Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/world/gen/feature/HugeTreeFeatureConfig; func_227277_a_
 	serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic; func_214634_a
 net/minecraft/world/gen/feature/HugeTreeFeatureConfig$Builder net/minecraft/world/gen/feature/HugeTreeFeatureConfig$Builder
-	field_227278_c_ field_227278_c_
-	field_227279_d_ field_227279_d_
-	field_227280_e_ field_227280_e_
-	field_227281_f_ field_227281_f_
+	baseHeight field_227279_d_
+	crownHeight field_227281_f_
+	decorators field_227278_c_
+	heightInterval field_227280_e_
 	baseHeight (I)Lnet/minecraft/world/gen/feature/BaseTreeFeatureConfig$Builder; func_225569_d_
 	baseHeight (I)Lnet/minecraft/world/gen/feature/HugeTreeFeatureConfig$Builder; func_225569_d_
 	build ()Lnet/minecraft/world/gen/feature/BaseTreeFeatureConfig; func_225568_b_
 	build ()Lnet/minecraft/world/gen/feature/HugeTreeFeatureConfig; func_225568_b_
-	func_227282_a_ (Ljava/util/List;)Lnet/minecraft/world/gen/feature/HugeTreeFeatureConfig$Builder; func_227282_a_
-	func_227283_b_ (I)Lnet/minecraft/world/gen/feature/HugeTreeFeatureConfig$Builder; func_227283_b_
-	func_227284_c_ (I)Lnet/minecraft/world/gen/feature/HugeTreeFeatureConfig$Builder; func_227284_c_
+	crownHeight (I)Lnet/minecraft/world/gen/feature/HugeTreeFeatureConfig$Builder; func_227284_c_
+	decorators (Ljava/util/List;)Lnet/minecraft/world/gen/feature/HugeTreeFeatureConfig$Builder; func_227282_a_
+	heightInterval (I)Lnet/minecraft/world/gen/feature/HugeTreeFeatureConfig$Builder; func_227283_b_
 net/minecraft/world/gen/feature/HugeTreesFeature net/minecraft/world/gen/feature/HugeTreesFeature
 	func_202405_b (Lnet/minecraft/world/gen/IWorldGenerationReader;Lnet/minecraft/util/math/BlockPos;)Z func_202405_b
 	func_203427_a (Lnet/minecraft/world/gen/IWorldGenerationReader;Lnet/minecraft/util/math/BlockPos;I)Z func_203427_a

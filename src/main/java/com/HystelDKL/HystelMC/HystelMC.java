@@ -9,7 +9,6 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -39,10 +38,12 @@ public class HystelMC
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::setup);
         modEventBus.addListener(this::doClientStuff);
-        instance = this;
 
+       // ModTileEntityTypes.TILE_ENTITY_TYPES.register(modEventBus);
         HystelItems.ITEMS.register(modEventBus);
         HystelBlocks.BLOCKS.register(modEventBus);
+
+        instance = this;
 
         MinecraftForge.EVENT_BUS.register(this);
     }

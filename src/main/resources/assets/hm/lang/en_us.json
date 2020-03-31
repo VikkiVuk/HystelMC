@@ -22,6 +22,11 @@
   "block.hm.copper_ore": "Copper Ore",
   "block.hm.rainbow_ore": "Rainbow Ore",
 
+  "block.hm.bluestone_button": "Bluestone Button",
+  "block.hm.bluestone_stairs": "Bluestone Stairs",
+  "block.hm.bluestone_pressure_plate": "Bluestone Pressure Plate",
+  "block.hm.bluestone_fence": "Bluestone Fence",
+
   "item.hm.cheesseburger": "Cheesseburger",
   "item.hm.bacon": "Bacon",
   "item.hm.beefburger": "Beef Burger",
